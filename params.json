@@ -1,6 +1,6 @@
 {
   "name": "CS11 Student Work",
   "tagline": "",
-  "body": "# Welcome to your first GitHub repository\r\n\r\nThis is how you will be submitting work for this class, and (hopefully) for AP Computer Science next year.\r\n\r\nGitHub is a system for _version control_, kind of like Google Drive for code.\r\n\r\nYou will be manually adding files this year, but in the future, you will be using Advanced Coding Stuff<sup>TM</sup> to add your work.\r\n\r\nYou should have a GitHub account that looks like <code>FirstnameLastname</code> or <code>firstname-lastname</code>. This is so that I can identify you work. Please DO NOT have a username like <code>emojiPanda3000</code>, because I won't know that it's you. \r\n",
+  "body": "# Welcome to my first GitHub repository\r\n\r\nHere, I will summarize and link to the projects that I've built in Computer Science.\r\n\r\n## Projects\r\n[HelloWorld.py](https://github.com/bensk/CS11StudentWork/blob/master/helloworld.py)\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
