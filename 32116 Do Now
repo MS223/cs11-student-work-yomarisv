@@ -1,0 +1,15 @@
+import random
+random.randint(1, 9)
+random.randint(1, 9)
+print(random.randint(1, 9))
+print(random.randint(1, 9))
+print(random.randint(1, 9))
+# In comments:
+# What does randint do?
+#randint picks a random number from 0 to 3.
+# What do the values 0 and 3 do?
+# I believe that they assign the numbers you can choose from
+# Try changing those numbers, rerun the program, and write down what changed.
+# It picked numbers from 1 to 9
+# What is the difference between random.randint(0,3) and print(random.randint(0,3))?
+# random randint is assigning numbers and print(random.randint(0,3)) picks a number and prints it.
