@@ -4,3 +4,4 @@ def find_odds(input):
         if x % 2 == 1:
             print x
 find_odds(list)
+
