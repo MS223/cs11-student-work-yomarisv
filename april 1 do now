@@ -1,0 +1,16 @@
+a = 0
+while a< 100:
+	print a
+#Prediction:It will print 0 because the condition is true.
+#Observation:It printed 0 a lot of times.
+a = 0
+while a < 100:
+	a = a + 1
+	print a
+#Prediction:It will add 1 each time a is printed.It will continue on.
+#Observation:It counted from 1 to 100.
+a = raw_input("Would you like to quit: ")
+while a != "y":
+	a = raw_input("Would you like to quit: ")
+#Prediction:It will ask you a question, infinite loop.
+#Observation:It kept asking a question.
