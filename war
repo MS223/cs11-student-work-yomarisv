@@ -1,0 +1,12 @@
+import random
+def shuffled_deck():
+	basic_deck = range(2, 53)
+	random.shuffle(basic_deck)
+	return basic_deck
+	
+    player_name = raw_input("player 1 what is your name?")
+
+def player_turn(player_name):
+    card = deck.pop()
+    print player_name,'drew card',card
+    return str(card)
