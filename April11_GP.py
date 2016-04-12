@@ -7,7 +7,7 @@ def print_only(x):
 def return_only(x):
    y = x * 2
    return y
-#this one is different because it is returning a value.
+#this one is different because it is not visual to a person while print is.
 # let's try to use our 2 functions
 print "running print_only ..."
 print_only(7)
@@ -26,4 +26,4 @@ print_only(7) + 6
 
 print "using return_only ..."
 return_only(7) + 6
-#Return returned a none but print was simply printing the number.
+#Return returned a nothing but print was simply printing the number.
