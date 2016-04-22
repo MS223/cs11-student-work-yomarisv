@@ -1,0 +1,8 @@
+#In our code we have to take out the vowels from a word, if not we have to tell the user that the word has no vowels.
+def de_vowel(some_string):
+    for n in some_string:
+        if n != 'a' and 'e' and 'i' and 'o' and 'u':
+            return  n
+         else n == 'r' and 'd' and 'c' and 'l' and 's'
+         #how do I let the computer know the non-vowels
+print de_vowel('Hello')
