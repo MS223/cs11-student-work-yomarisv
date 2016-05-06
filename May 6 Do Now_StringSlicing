@@ -1,0 +1,9 @@
+print "hello"[1:]
+print "hello"[:4]
+print "hello"[2:4]
+#When printing this code some of the letters disappear I believe this is because each line of code has a 
+#bracket with a number and a colon inside causing a certain letter to erase depending on the number.
+def fruit_pluralizer():
+    if fruit[len(fruit)-1] + 'ies':
+        print fruit[len(fruit)-1]+"ies"
+    # i have to fix the code in order to get this going.
