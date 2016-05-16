@@ -1,0 +1,26 @@
+my_dictionary = {
+'cat': 'a domestic feline',
+'dog': 'a domestic canine',
+'chair': 'furniture piece for sitting',
+'car': 'automobile'
+}
+print my_dictionary
+print my_dictionary['dog']
+print my_dictionary.get('dog')
+print 'cat' in my_dictionary
+print 'monkey' in my_dictionary
+What prints?
+A list prints out
+What type1 is my_dictionary?
+It is catagorized as dict.
+Add a line of code that will print the definition of chair, then run the code again.
+print ['chair']
+What happens if you use my_dictionary[‘kittens’]? What do you think that error means?
+I think the error means that it is not in the my_dictionary.
+
+user_profile = {
+name = {'Yomaris': Verdin, 'Edgar': Ordaz, 'Johann' Cortes}
+print name['Edgar']
+birthday = {'Yomaris': 0706, 'Edgar': 0703, 'Johann': 0708}
+print birthday['Johann']
+}
