@@ -1,0 +1,36 @@
+my_dictionary = {
+'kittens': 'cute animals'
+}
+my_dictionary['kittens'] = 'delicious'
+print my_dictionary
+#The second line is the key stored inside the dictionary.
+
+my_dictionary = {}
+my_dictionary['puppies'] = 'baby dogs'
+print my_dictionary
+#I believe that the first line is an empty dictionary and the second line contains 'baby
+#dogs' so it goes into the first dictionary when printed.
+
+my_dictionary = {
+    'hello': 'hola',
+    'goodbye': 'adios'
+    }
+print my_dictionary.pop('foo', None)
+# None
+print my_dictionary
+# {'goodbye': 2}
+
+my_dictionary = {
+    'hello': 'hola',
+    'goodbye': 'adios'
+    }
+print my_dictionary.pop('foo')
+print my_dictionary
+#I think the difference is that the difference between my_dictionary.pop('foo',None)
+#and print my_dictionary.pop('foo') it that when you don't add the none it is considered 
+# a key.
+Word Counter
+text_input = raw_input("Paste your text here")
+text_input = "Some split", lower().split()
+print text_input = ["some","string"]
+text_input.count("some")
