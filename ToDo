@@ -1,0 +1,11 @@
+user = "What would you like to do?"
+list_dictionaries = {
+    'Monday':[read],
+    'Tuesday':[workout],
+    'Wednesday':[eat],
+    'Thursday':[go out],
+    'Friday':[watch tv],
+    'Saturday':[sleep],
+    'Sunday':[go shopping]
+}
+#i am trying to get my dictonary list to work
