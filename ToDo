@@ -1,11 +1,20 @@
+
 user = "What would you like to do?"
 list_dictionaries = {
-    'Monday':[read],
-    'Tuesday':[workout],
-    'Wednesday':[eat],
-    'Thursday':[go out],
-    'Friday':[watch tv],
-    'Saturday':[sleep],
-    'Sunday':[go shopping]
+    'Monday':[],
+    'Tuesday':[],
+    'Wednesday':[],
+    'Thursday':[],
+    'Friday':[],
+    'Saturday':[],
+    'Sunday':[]
 }
-#i am trying to get my dictonary list to work
+
+def add(action,day):
+    list_dictionaries[day].append(action)
+def get(day):
+    print list_dictionaries[day]
+def choice():
+   user_choice = raw_input("How can I help you?")
+   add("something","monday")
+   get("monday")
