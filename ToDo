@@ -1,17 +1,18 @@
 
 user = "What would you like to do?"
 list_dictionaries = {
-    'Monday':[],
-    'Tuesday':[],
-    'Wednesday':[],
-    'Thursday':[],
-    'Friday':[],
-    'Saturday':[],
-    'Sunday':[]
+    "Monday":[],
+    "Tuesday":[],
+    "Wednesday":[],
+    "Thursday":[],
+    "Friday":[],
+    "Saturday":[],
+    "Sunday":[]
 }
-
 def add(action,day):
-    list_dictionaries[day].append(action)
+    user = "What would you like to do?"
+    list_dictionaries[day].append(action
+    return choice()
 def get(day):
     print list_dictionaries[day]
 def choice():
