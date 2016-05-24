@@ -1,0 +1,16 @@
+class color():
+color_1 = color()
+color_2 = color()
+color_3 = color()
+
+color_1.r = 102
+color_1.g = 255
+color_1.b = 178
+
+color_2.r = 225
+color_2.g = 225
+color_2.b = 225
+
+color_3.r = 255
+color_3.g = 204
+color_3.b = 229
