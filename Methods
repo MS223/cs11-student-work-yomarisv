@@ -1,0 +1,30 @@
+Time(object):
+ def __init__(self, hour, minute, second):
+     self.hour = hour
+     self.minute = minute
+     self.second = second
+
+time1 = Time(5, 32, 0)
+time2 = Time(23, 11, 11)
+
+print time1.hour
+print time2
+#1.)You can tell the difference because at the end of the code it say 90 for time
+#1 and for time 2 it says d0.
+#2.)In order to add the hour,minute, and second you can put print time1.minute
+#3.)They add up together.
+class Time(object):
+    def __init__(self, hour, minute, second):
+        self.hour = hour
+        self.minute = minute
+        self.second = second
+    def __str__(self):
+        return str(self.hour) + ":" + str(self.minute) + ":" + str(self.second)
+    def __add__(self, other):
+        return Time(self.hour + other.hour , self.minute + other.minute , self.second + other.second)
+time1 = Time(5, 32, 0)
+time2 = Time(23, 11, 11)
+time3 = Time(7,14,49)
+print time1
+print time2
+print time1+time2+time3
